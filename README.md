@@ -26,7 +26,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 ![alt text](https://github.com/NicolasBarbara/NBSideTabBarController/blob/master/image1.png)
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![Image](https://github.com/NicolasBarbara/NBSideTabBarController/blob/master/image2.png)
 
 ### Jekyll Themes
 
