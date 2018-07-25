@@ -27,7 +27,7 @@ Syntax highlighted code block
 ```
 ![alt text](https://github.com/NicolasBarbara/NBSideTabBarController/blob/master/image1.png)
 ![Image](https://github.com/NicolasBarbara/NBSideTabBarController/blob/master/image2.png)
-
+![Image](https://github.com/NicolasBarbara/NBSideTabBarController/blob/master/image3.png)
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NicolasBarbara/NBSideTabBarController/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
