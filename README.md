@@ -1,39 +1,24 @@
-## Welcome to GitHub Pages
+## Welcome to NB
 
-You can use the [editor on GitHub](https://github.com/NicolasBarbara/NBSideTabBarController/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 ![Image](https://github.com/NicolasBarbara/NBSideTabBarController/blob/master/image1.png)
 ![Image](https://github.com/NicolasBarbara/NBSideTabBarController/blob/master/image2.png)
 ![Image](https://github.com/NicolasBarbara/NBSideTabBarController/blob/master/image3.png)
 ![Image](https://github.com/NicolasBarbara/NBSideTabBarController/blob/master/image4.png)
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NicolasBarbara/NBSideTabBarController/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Example
+```
+let v0 = NBView()
+v0.backgroundColor = .blue
+let ds0 = NBSideTabBarControllerDataSource(tableViewCell: NBSideTableViewCell.init(text: "Blue"), view: v0)
+let v1 = NBView()
+v1.backgroundColor = .green
+let ds1 = NBSideTabBarControllerDataSource(tableViewCell: NBSideTableViewCell.init(text: "Green"), view: v1)
+let v2 = NBView()
+v2.backgroundColor = .yellow
+let ds2 = NBSideTabBarControllerDataSource(tableViewCell: NBSideTableViewCell.init(text: "Yellow"), view: v2)
+let dataSource = [ds0,ds1,ds2]
+let vc = NBSideTabBarController(dataSource: dataSource, width: 60, anchor: .left, colors: [.blue,.green,.yellow])
+```
